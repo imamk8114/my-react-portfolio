@@ -1,0 +1,40 @@
+#contact{
+    padding-top: 30px;
+}
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+
+.contact-left p{
+    padding-left: 100px;
+    margin-top: 30px;
+}
+
+.contact-left p i{
+    color: #244ccb;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-right form{
+    width: 100%;
+}
+
+
+form input,form textarea{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}

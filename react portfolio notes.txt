@@ -1,0 +1,54 @@
+1)NPM is a package manager used to install, delete, and update Javascript packages on your machine. NPX is a package executer, and it is used to execute javascript packages directly, without installing them
+
+2)Create React App: npx create-react-app .
+
+3)Run React App: npm start
+
+4)Useful extensions:
+    Material Icon Theme
+    ES7+React/Redux/React-Native snippets
+    Auto Import - ES6, TS, JSX, TSX
+
+5)Project structure:
+   Create index.html in public folder
+   Create components folder in src 
+   Create index.js in src
+   Create App.jsx in src 
+   Create index.css in src
+
+6)Initial Setups:
+
+    in index.html
+        Add html boilerplate code
+        type #root to create a div with id "root"
+
+    in App.jsx
+        type rafce to generate the following code:
+                import React from 'react'
+
+                const App = () => {
+                return (
+                    <div>App</div>
+                )
+                }
+
+                export default App
+        Since we are using React 18,we don't need to import React in line 1 of code,so we can delete it
+
+    in index.js
+        We need to need to link our app component with the div with id "root" in index.html file
+        So we need to add the following code:
+            import ReactDOM from 'react-dom/client';
+            import App from './App';
+
+            const root = ReactDOM.createRoot(document.getElementById('root'));
+            //this also works -> root = ReactDOM.createRoot(document.querySelector('#root'));
+
+            root.render(
+                <App />
+            );
+
+
+
+
+        
