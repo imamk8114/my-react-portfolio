@@ -1,24 +1,26 @@
 #header{
     width: 100%;
-    height: 100vh;
     text-align: center;
+    position: fixed;
+    margin-top: 0px;
+    background-color: black;
 }
 
-.header-text{
-    margin-top: 20%;
-    font-size: 30px;
+.navbar{
+    padding: 10px 10%;
 }
 
-.header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
-}
-
-.header-text h1 span{
+.container nav h1 span {
     color: #244ccb;
 }
 
+.sidebar-expanded{
+    right:0
+}
 
+.sidebar-collapsed{
+    right:-200px;
+}
 
 nav{
     display: flex;

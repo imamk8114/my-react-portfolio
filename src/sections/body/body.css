@@ -1,0 +1,17 @@
+.body-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.body-text h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+.body-text h1 span {
+    color: #244ccb;
+}
